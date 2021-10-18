@@ -1,5 +1,5 @@
 {
-    "name": "eth-todo-list",
+    "name": "eth-covid-vaccine-queue",
     "version": "1.0.0",
     "description": "Blockchain Todo List Powered By Ethereum",
     "main": "truffle-config.js",
@@ -17,9 +17,13 @@
         "chai": "^4.1.2",
         "chai-as-promised": "^7.1.1",
         "chai-bignumber": "^3.0.0",
-        "lite-server": "^2.3.0",
+        "lite-server": "^2.6.1",
         "nodemon": "^2.0.13",
         "truffle": "^5.4.15",
         "truffle-contract": "^4.0.31"
+    },
+    "dependencies": {
+        "jquery": "^3.6.0",
+        "web3": "^1.6.0"
     }
 }
